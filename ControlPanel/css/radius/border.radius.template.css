@@ -1,0 +1,39 @@
+﻿.box_cp	{
+	border-radius: raggiopx;
+	-moz-border-radius: raggiopx;
+	-webkit-border-radius: raggiopx;
+	}
+	
+input	{
+	-moz-border-radius: raggiopx;
+	-webkit-border-radius: raggiopx;
+	border-radius: raggiopx;
+
+	}
+	
+textarea	{
+	-moz-border-radius: raggiopx;
+	-webkit-border-radius: raggiopx;
+	border-radius: raggiopx;
+	}
+	
+.tasto_pagina	{
+		-moz-border-top-left-radius: raggiopx;
+		-webkit-border-top-left-radius: raggiopx;
+		border-top-left-radius: raggiopx;
+		-moz-border-top-right-radius: raggiopx;
+		-webkit-border-top-right-radius: raggiopx;
+		border-top-right-radius: raggiopx;
+	}
+	
+#help_window 	{
+		-moz-border-radius: raggiopx;
+		-webkit-border-radius: raggiopx;
+		border-radius: raggiopx;
+	}
+	
+.tag_elenco_content li	{
+		-moz-border-radius: raggiopx;
+		-webkit-border-radius: raggiopx;
+		border-radius: raggiopx;
+	}

@@ -1,0 +1,472 @@
+﻿#wrap {					/*OK*/
+	padding-bottom: 30px;
+}
+
+#titolo_news {
+	position: relative;
+	top: -25px;
+	font-size: 28px;
+	left: 100px;
+	height: 40px;
+	width: 80%;
+	overflow: hidden;
+	}
+
+#titolo_news span{
+	font-size: 20px;
+	color: #f9b234;
+	}
+	
+#main_content {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	top: -25px;
+	}
+	
+	
+#colori {
+	/*background: #ccc;*/
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	}
+	
+.footer_closer {
+	height: 50px;
+	}
+/****************CORPO PANNELLO********************/
+
+.box_cp {					/*OK*/
+	float:left;
+	width: 160px;
+	height: 32px;
+	padding: 5px 5px;
+	overflow: hidden;
+	position: relative;
+	margin: 5px;
+	-moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+		
+	/*	  border-radius in foglio di stile a parte 
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;*/
+	/*color in config.inc.php*/
+}
+
+.testata {
+	/* config.inc.php {$testate_background}*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	height: 38px;
+	width: 120%;
+	position: relative;
+	top: -5px;
+	left: -10px;
+	text-align: center;
+	text-indent: -35px;
+	padding-top:4px;
+	/*text-shadow: 1px 2px 3px #444;*/
+	/* config.inc.php {$testate_inchiostro}*/
+	}
+
+.elenco {
+	text-align: left;
+	text-indent: 50px;
+	}
+
+.help {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	background-size: 80%;
+	}
+
+
+
+.arrow_up {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	background-size: 93%;
+	}
+
+.arrow_down {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 1px 0;
+	background-size: 93%;
+	}
+
+.arrow_left {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 93%;
+	}
+
+.arrow_right {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 93%;
+	}
+
+.close {
+	/*		immagine in file  icone.css		*/
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	background-size: 82%;
+	}
+	
+#btn_test, #btn_test_image, #btn_test_text, #btn_test_search {
+	position: relative;
+	top: -32px;
+	left: 10px;
+	width: 34px;
+	height: 34px;
+	border-radius: 300px;
+
+	}
+
+#btn_test:hover, #btn_test_image:hover, #btn_test_text:hover, #btn_test_search:hover {
+	background-color: #4f4f4f;
+	cursor: pointer;
+		}
+
+#btn_help {
+	position: relative;
+	top: -66px;
+	left: 260px;
+	width: 34px;
+	height: 34px;
+	border-radius: 300px;
+	}
+
+#btn_help:hover {
+	background-color: #4f4f4f;
+	cursor: pointer;
+
+}
+
+
+#box_position {
+	position: relative;
+	left: 30px;
+	z-index: 2000;
+	width: auto;
+	height: auto;
+	box-shadow: 5px 5px 10px 2px rgba(0,0,0,.6);
+	-webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,.6);
+	-moz-box-shadow: 5px 5px 10px 2px rgba(0,0,0,.6);
+}
+/**********************ALTEZZE************************/
+.mini_height {
+	height: 84px;
+	}
+
+.double_height {
+	height: 340px;
+	}
+		
+.triple_height {
+	height: 400px;
+		}
+
+/**********************LARGHEZZE************************/
+.triple_w {
+	width: 97%;
+	margin-right: 20px;
+	}
+
+
+/************************CUBI**************************/
+
+.double {
+	width: 290px;
+	}
+
+.triple {
+	width: 520px;
+	}
+
+.maxi-triple {
+	width: 700px;
+	}
+
+/*---------------- MENU TITOLI --------------------------*/
+
+#menu_titoli {
+	float: left;
+	font-size: 1.8em;
+	width: 58%;
+	min-width: 260px;
+	height: 50px;
+	overflow: hidden;
+	letter-spacing: -.5px;
+	padding: 5px 0 0 5px;
+	}
+
+#search_titoli {
+	position: relative;
+	left: 50px;
+	font-size: 1em;
+	width: 240px;
+	height: 44px;
+	overflow: hidden;
+	}
+
+.search_title {
+	margin: 10px 0px 10px 5px;
+	}
+
+/******************TIPOLOGIE*****************************/
+
+/*			PRIMO BOX*/
+#box_position {			/*OK*/
+	position: relative;
+	overflow-x: hidden;
+}
+
+#menu_notizie {
+	background-color: rgba(0,0,0,.1);
+	border-radius: 2px;
+	height: 280px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.selected				/*OK*/
+{
+
+	height: 16px;
+	width:100%;
+	text-align: left;
+	text-indent: 25px;
+	font-size: 0.8em;
+	color: #000;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+.unselected				/*OK*/
+{
+height: 18px;
+text-indent: 15px;
+text-align: left;
+font-size: 0.8em;
+margin-bottom: 2px;
+overflow: hidden;
+}
+
+.unselected:hover				/*OK*/
+{
+background-color: rgba(255,255,255,.5);
+color: #555;
+cursor: pointer;
+}
+
+.spacer {
+		height: 18px;
+		text-indent: 15px;
+		text-align: left;
+		font-size: 0.8em;
+		margin-bottom: 2px;
+		overflow: hidden;
+}
+
+/*		FINE	PRIMO BOX*/
+
+
+#image {						/*OK*/
+	display:block;
+	position: relative;
+	top: -15px;
+	max-width: 340px;
+	max-height: 200px;
+	overflow: hidden;
+	border-radius: 2px;
+	margin: 20px auto;
+}
+
+#image img {					/*OK*/
+	max-width: 340px;
+	max-height: 200px;
+}
+
+.num_foto		{
+		width: 100%;
+		min-height: 24px;
+		font-size: 24px;
+		position: relative;
+		top: -30px;
+		text-align: center;
+		color: #ffa540;
+		opacity: 0.7;
+	}
+/* ----------------- B O X   D A T A  --------------------------*/
+
+#data_box {
+	background-color: #f0f0f0;
+	border: 2px solid #FFF;
+	margin-left: auto;
+	padding: 10px 0px;
+	color: #6d6d6d;
+	text-align: center;
+	font-size: 16px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+#dati_box {
+	background-color: #f0f0f0;
+	border: 2px solid #FFF;
+	margin-left: auto;
+	padding: 5px;
+	height: 190px;
+	color: #6d6d6d;
+	text-align: left;
+	font-size: 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#dato_ris {
+float: right;
+color: #1254c2;
+}
+
+#dato_var {
+float: left;
+}
+
+/* ---------FINE---- B O X   D A T A  --------------------------*/
+
+#box_text {					/*OK*/
+	overflow: hidden;
+	/*z-index: 2500;*/
+}
+
+#box_text textarea {
+	overflow: auto;
+	}
+/* ---------  E L E N C O    T A G S   --------------------------*/
+/*-----CONTENITORI----------*/
+.elenco_tags  {
+	width: 90%;
+	background-color: #5a6169;
+	border-radius: 3px;
+	}
+
+.risultato_tags {
+	width: 90%;
+	background-color: #a5a5a5;
+	border-radius: 3px;
+	}
+
+
+.tag_elenco_content {
+	font-size: 0.9em;
+	padding: 5px;
+	}
+
+.tag_elenco_content li {
+	float: left;
+	margin: 5px 2px 0 5px;
+	font-weight: 300;
+	font-size: 0.8em;
+	background-color: #fff;
+	color: #5a6169;
+	text-align: justify;
+	text-decoration: none;
+	list-style: none;
+	padding: 5px 3px;
+	}
+
+.tag_elenco_content li:hover {
+	box-shadow: none;
+	cursor: pointer;
+	background-color: #f8b133;
+	}
+
+.tag_risultato_content {
+	font-size: 0.9em;
+	padding: 5px;
+	}
+
+.tag_risultato_content li {
+	float: left;
+	margin: 5px 2px 0 5px;
+	font-size: 0.9em;
+	background-color: #e69e28;
+	color: #5a6169;
+	text-align: justify;
+	text-decoration: none;
+	list-style: none;
+	padding: 5px 3px;
+	border-radius: 3px;
+	box-shadow: none!important;
+	}
+
+.tag_risultato_content li:hover {
+	cursor: pointer;
+	background-color: #f8b133;
+	}
+	
+/* ---------  F I N E   E L E N C O    T A G S   ------------------*/
+
+/*----------------BOX ISTRUZIONI -------------------*/
+#box_istruzioni {			/*OK*/
+	color: #554;
+	font-size: 0.8em;
+	background-color: #b4b4b4;
+	border: 1px solid #CCC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 3px 6px;
+	overflow: hidden;
+}
+
+.rosso_bold {				/*OK*/
+	font-weight: 700;
+	color: #de0000;
+}
+
+#box_istruzioni b {
+font-weight: bold;
+}
+
+#pulsantiera {
+	/*background in config.inc.php*/
+	/*color in config.inc.php		{$inchiostro_pannelli}*/
+	font-size: 12px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	-moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	
+}
+
+/*------------ FINE DI BOX ISTRUZIONI -------------------*/
+@media screen and (min-width:700px) and (max-width:950px){
+
+/****************LARGHEZZE**************************/
+
+}
+
+@media screen and (max-width:690px){
+
+/**********************ALTEZZE************************/
+
+
+}

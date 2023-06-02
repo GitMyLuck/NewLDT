@@ -1,0 +1,222 @@
+﻿
+
+.credits		{
+		background: url('../img/icone/credits_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.credits-sel		{
+		background: url('../img/icone/credits_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.credits:hover		{
+		background: url('../img/icone/credits_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.policy		{
+		background: url('../img/icone/policy_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.policy-sel		{
+		background: url('../img/icone/policy_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.policy:hover		{
+		background: url('../img/icone/policy_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.menu		{
+		background: url('../img/icone/menu_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.menu-sel		{
+		background: url('../img/icone/menu_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.menu:hover		{
+		background: url('../img/icone/menu_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.search		{
+		background: url('../img/icone/search_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.search-sel		{
+		background: url('../img/icone/search_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.search:hover		{
+		background: url('../img/icone/search_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.indietro		{
+		background: url('../img/icone/left_arrow_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.indietro-sel		{
+		background: url('../img/icone/left_arrow_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.indietro:hover		{
+		background: url('../img/icone/left_arrow_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.tags		{
+		background: url('../img/icone/tags_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.tags-sel, .tags-btn		{
+		background: url('../img/icone/tags_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.tags:hover		{
+		background: url('../img/icone/tags_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+	
+.ok		{
+		background: url('../img/icone/ok_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.ok-sel		{
+		background: url('../img/icone/ok_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.ok:hover		{
+		background: url('../img/icone/ok_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+	
+.login		{
+		background: url('../img/icone/login_avio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.login-sel		{
+		background: url('../img/icone/login_arancio.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.login:hover		{
+		background: url('../img/icone/login_bianco.gif');
+		background-repeat: no-repeat;
+		background-position: 1px 1px;
+		background-size: 98%;
+	}
+	
+.calendar-sel, .calendar-btn		{
+		background: url('../img/icone/calendar_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.link-btn		{
+		background: url('../img/icone/globe_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.map-btn		{
+		background: url('../img/icone/compass_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.pdf-btn		{
+		background: url('../img/icone/pdf_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.mail-btn	{
+		background: url('../img/icone/mail_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.fb-btn	{
+		background: url('../img/icone/facebook_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.return-btn		{
+		background: url('../img/icone/left_arrow_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+.video-btn		{
+		background: url('../img/icone/video_arancio.gif');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+	
+	
+	

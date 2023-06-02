@@ -1,0 +1,207 @@
+﻿
+
+.block-news {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+.block-color-eventi	{
+		background-color: #7da7df;
+	}
+	
+.block-color-news	{
+		background-color: #a1abb9;
+	}
+	
+	
+.news-page	{
+		width: 90%;
+		margin-bottom: 8px;
+	}
+
+.void		{
+		min-height: 450px;
+		text-align: center;
+	}	
+
+/*		--------	TITOLO	----------		*/
+/*		--------------------------------		*/
+.box-titolo	{
+		font-size: 1.1em;
+		font-weight: 400;
+		padding: 0 5px;
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+.class-eventi 	{
+		background-color: #f0be33;
+		color: #476f9e;
+	}
+	
+.class-news	{
+		background-color: #afc6e4;
+		color: #ecf2f2;
+	}
+
+.categoria		{
+		min-width: 150px;
+		max-width: 150px;
+		padding: 0 6px;
+		border-radius: 3px;
+		margin-left: 5px;
+		margin-top: 3px;
+		cursor: pointer;
+	}
+
+.categoria:hover	{
+		background-color: #ffa540;
+		color: #304b87;
+	}
+/*		--------	DATA	----------		*/
+/*		-----------------------------		*/
+	
+.box-data-news	{
+		float: left;
+		max-width: 23%; 
+		min-width: 45px;
+		background-color: #e2e8ef;
+		color: #476f9e;
+		border-radius: 3px;
+		margin-top: 10px;
+		margin-right: 6px;
+		margin-left: 10px;
+	}
+	
+.box-data-page	{
+		float: right;
+		max-width: 23%; 
+		min-width: 45px;
+		background-color: #e2e8ef;
+		color: #476f9e;
+		border-radius: 3px;
+		margin-top: 10px;
+		margin-right: 26px;
+	}
+
+		
+.block-giorno	{
+		position: relative;
+		top: -14px;
+		max-height: 22px;
+		text-align: center;
+		font-size: 2.3em;
+		font-weight: 700;
+	}
+	
+.block-mese		{
+		text-align: center;
+		max-height: 20px;
+		font-weight: 700;
+	}
+	
+.block-anno		{
+		position: relative;
+		top: -4px;
+		max-height: 26px;
+		text-align: center;
+		color: #fff;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		font-size: 1.0em;
+		font-weight: 700;
+		background-color: #4e8bc2;
+		border: 1px solid #a1bbe0;
+	}
+	
+
+/*		----------	IMMAGINE	----------		*/
+/*		-------------------------------------		*/
+
+.box-image		{
+		max-width: 290px;
+		margin: 6px;
+		border-radius: 3px;
+	}
+	
+.box-image-page		{
+		float: right;
+		max-width: 290px;
+		margin: 6px;
+		border-radius: 3px;
+	}
+	
+.box-image img, .box-image-page img	{
+	max-width: 64%;
+	width: 64%;
+	margin: auto auto;
+	border-radius: 3px;
+	border: 1px solid #a1bbe0;
+		}
+		
+/*		----------	TESTO	----------		*/
+/*		----------------------------------		*/
+
+.box-text	{
+		max-width: 100%;
+		padding: 3px 5px;
+		font-size: 0.9em;
+		text-align: left;
+		line-height: 18px;
+	}
+
+.box-text-page	{
+		float: left;
+		max-width: 36%;
+		padding: 3px 5px;
+		font-size: 0.9em;
+		text-align: left;
+		line-height: 18px;
+	}
+
+/*		----------	FOOTER	----------		*/
+/*		----------------------------------		*/
+
+.box-footer-news		{
+		font-size: 1.1em;
+		font-weight: 400;
+		padding: 0 5px;
+		width: 100%;
+		overflow: hidden;
+		cursor: pointer;
+	}
+
+.box-eventi	{
+		color: #476f9e;
+		background-color: #f0be33;
+	}
+	
+.box-eventi:hover	{
+		color: #304b87;
+		background-color: #ffa540;
+	}
+	
+.box-news {
+		color: #ecf2f2;
+		background-color: #afc6e4;
+	}
+	
+.box-eventi:hover	{
+		color: #304b87;
+		background-color: #ffa540;
+	}
+	
+.box-footer-news:hover	{
+		color: #304b87;
+		background-color: #ffa540;
+	}
+
+	
+@media screen and (min-width: 471px) and (max-width: 590px) 		{	
+.box-image img	{
+		max-width: 45%;
+		width: 45%;
+	}
+}

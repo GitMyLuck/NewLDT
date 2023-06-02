@@ -1,0 +1,23 @@
+﻿.linguetta_info		{
+	background-image: url('../../images/appendici/A1BBE0/baloon-left.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}
+	
+.linguetta_istr		{
+	background-image: url('../../images/appendici/A1BBE0/baloon-up.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}
+	
+.linguetta_alert		{
+	background-image: url('../../images/appendici/A1BBE0/baloon-right.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}
+	
+.linguetta_error		{
+	background-image: url('../../images/appendici/A1BBE0/baloon-down.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}

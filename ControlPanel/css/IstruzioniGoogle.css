@@ -1,0 +1,66 @@
+﻿.istruzioni_Google {
+		
+						display: inline-block;
+						width: 100%;
+			}
+		
+.frecce_ {
+						display: inline-block;
+						width: 100%;
+			}
+
+		
+.image-link {
+						
+						
+			}
+
+.arrows {
+						width: 30px;
+						height: 30px;
+						border-radius: 30px;
+				}
+
+#prec:hover, #succ:hover {
+						background-color: #4f4f4f;
+						cursor: pointer;
+						opacity: 1.0;
+				}
+				
+#prec {
+						float:left;
+						background-image: url('images/arrow-left-32-y.png');
+						background-repeat: no-repeat;
+						background-position: 1px 1px;
+						background-size: 28px;
+						opacity: 0.6;
+				}
+
+#succ {
+						float:right;
+						background-image: url('images/arrow-right-32-y.png');
+						background-repeat: no-repeat;
+						background-position: 1px 1px;
+						background-size: 28px;
+						opacity: 0.6;
+				}
+			
+#immagine {
+						float:left;
+						width: 50%;
+			}
+			
+#GoogleText {
+						float:left;
+						width: 45%;
+						margin-left: 10px;
+			}
+#GoogleText a {
+
+						color: #0080ff;
+			}
+
+
+
+
+		

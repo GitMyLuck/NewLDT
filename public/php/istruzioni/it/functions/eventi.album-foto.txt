@@ -1,0 +1,8 @@
+In questo Box vengono rappresentate tutte le immagini di questo evento.
+L'immagine con la cornice gialla e' quella predefinita, percio' essa verra'
+rappresentata nell'elenco principale, mentre tutte verranno visualizzate nella
+gallery destinata a questo evento.
+Per visualizzare l'immagine ingrandita basta cliccarci sopra.
+Per selezionare una immagine da far diventare predefinita, fare doppio clic
+nello spazio dedicato alla didascalia. Dopo qualche istante, la cornice diventera' di colore
+giallo, a quel punto quell'immagine sara' l'immagine di default.

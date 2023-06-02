@@ -1,0 +1,143 @@
+﻿/*------------------------------------------------------*/ 
+/*		PARAGRAFO	*/
+/*------------------------------------------------------*/ 
+.titolo-par		{
+		font-size: 1.9em;
+		font-weight: 700;
+
+	}
+	
+.testo-par::first-letter	{
+		font-size: 1.9em;
+		font-weight: 700;
+	}
+	
+.testo-par		{
+		padding: 5px 5px;
+		font-size: 1.2em;
+		text-align: justify;
+		line-height: 22px;
+		overflow: hidden;
+	}
+	
+.testo-par a  {
+		text-decoration: none;
+		font-weight: 400;
+		color:#ffb700;
+	}
+	
+.testo-par a:hover		{
+		color: #fff;
+	}
+	
+.capital		{
+		font-size: 1.9em;
+		font-weight: 700;
+		color:#ffb700;
+	}
+
+
+
+/*------------------------------------------------------*/ 
+/*			FINE  PARAGRAFO	*/	
+/*------------------------------------------------------*/ 
+
+/*------------------------------------------------------*/ 
+/*			IMMAGINE  PARAGRAFO	*/	
+/*------------------------------------------------------*/ 
+
+.alignleft 	{ 
+		float: left;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 2px;
+		border-radius: 3px;
+		border: 1px solid #a1bbe0;
+		border-bottom: 8px solid #a1bbe0;
+	}
+	
+.alignright 	{ 
+		float: right; 
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 2px;
+		border-radius: 3px;
+		border: 1px solid #a1bbe0;
+		border-bottom: 8px solid #a1bbe0;
+	}
+/*------------------------------------------------------*/ 
+/*			IMMAGINE  PARAGRAFO	*/	
+/*------------------------------------------------------*/ 
+
+/*------------------------------------------------------*/ 
+/*			IMMAGINE  COMPASS	*/	
+/*------------------------------------------------------*/ 
+
+.cont-meteo-pista	{
+		width: 50%;
+		float: right;
+		/*margin: 0 auto;*/
+	}
+	
+.meteo-pista		{
+		width: 50%;
+		margin: 10px;
+		border-radius: 3px;
+		border: 1px solid #a1bbe0;
+		background: url('../img/bussola-pista.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+/*------------------------------------------------------*/ 
+/*			IMMAGINE  COMPASS	*/	
+/*------------------------------------------------------*/ 
+
+
+/*------------------------------------------------------*/ 
+/*		VOCI  MENU 	   		*/
+/*------------------------------------------------------*/ 
+.selected	{
+		min-height: 24px;
+		background-color: #304b87;
+		border-left: 3px solid #a1bbe0;
+		border-top: 3px solid #a1bbe0;
+		border-right: 3px solid #a1bbe0;
+		border-radius: 3px;
+		cursor: default;
+	}
+	
+.unselected	{
+	min-height: 24px;
+	cursor: pointer;
+	border-top: 3px solid #6b90bd;
+	border-bottom: 3px solid rgba(0,0,0,0);
+	}
+	
+.unselected:hover		{
+	color: #fac255;
+	border-bottom: 3px solid #fac255;
+	}
+/*------------------------------------------------------*/ 
+/*		FINE  VOCI  MENU 	*/
+/*------------------------------------------------------*/ 
+/*	----- input - text  SEARCH	------	*/
+.i_text	{
+		float: right;
+		margin-right: 20px;
+		margin-top: 10px;
+		min-height: 28px;
+		min-width: 70%;
+		border-radius: 3px;
+		border: 1px solid #a1bbe0;
+		background-color: #9fccdd;
+		color: #304b87;
+		font-size: 2.0em;
+		font-weight: 700;
+		
+	}
+
+.lavori-in-corso	{
+		position: fixed;
+		top: 80;
+		right: 0;
+}

@@ -1,0 +1,1 @@
+﻿<p class="cookie-adv">Il nostro sito fa uso di <b>cookies</b> per migliorare l'esperienza di navigazione degli utenti<br />e permettere l'utilizzo di alcune funzioni. Vedi anche <span class="link" onclick="pagina ='policy'; caricaPagina();">Privacy Policy.</span><br />Cliccare il pulsante di spunta per accettare.</p>

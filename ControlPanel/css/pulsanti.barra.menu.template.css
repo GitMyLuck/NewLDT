@@ -1,0 +1,54 @@
+﻿.add {
+			background: url('../images/icone_barra/color/add.png') no-repeat center center;
+	}
+	
+.adduser {
+			background: url('../images/icone_barra/color/adduser.png') no-repeat center center;
+	}
+	
+.ok	{
+			background: url('../images/icone_barra/color/ok.png') no-repeat center center;	
+	}
+
+.delete			{
+			background: url('../images/icone_barra/color/cestino.png') no-repeat center center;
+	}
+	
+.out				{
+			background: url('../images/icone_barra/color/exit.png') no-repeat center center;
+	}
+
+.edit				{
+			background: url('../images/icone_barra/color/modify.png') no-repeat center center;
+	}
+	
+.cancel			{
+			background: url('../images/icone_barra/color/left_arrow.png') no-repeat center center;
+	}
+
+.back {
+			background: url('../images/icone_barra/color/left_arrow.png') no-repeat center center;
+	}
+	
+.settings 		{
+			background: url('../images/icone_barra/color/settings.png') no-repeat center center;
+	}
+	
+.maximize		{
+			background: url('../images/icone_barra/color/max.png') no-repeat center center;
+	}
+
+.backup			{
+			background: url('../images/icone_barra/color/backup.png') no-repeat center center;
+	}
+
+.menu			{
+			background: url('../images/icone_barra/color/menu.png') no-repeat center center;
+	}
+	
+.restore			{
+			background: url('../images/icone_barra/color/restore.png') no-repeat center center;
+	}
+	
+	
+	

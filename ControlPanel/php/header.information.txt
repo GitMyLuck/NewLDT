@@ -1,0 +1,16 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="8">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="9" endPos="9" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\db.inc.php" backupFilePath="" originalFileLastModifTimestamp="1440264691" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="9" endPos="9" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\elenco.class.php" backupFilePath="" originalFileLastModifTimestamp="1440264707" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="9" endPos="9" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\funzioni.db.php" backupFilePath="" originalFileLastModifTimestamp="1440264723" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="9" endPos="9" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\new.build.page.main.php" backupFilePath="" originalFileLastModifTimestamp="1440264740" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="9" endPos="9" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\db.backup.php" backupFilePath="" originalFileLastModifTimestamp="1440264765" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="10" endPos="10" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\utenti.class.php" backupFilePath="" originalFileLastModifTimestamp="1440264783" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="10" endPos="10" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\decript.class.php" backupFilePath="" originalFileLastModifTimestamp="1440264796" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3125" startPos="10" endPos="10" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\tabelle.class.php" backupFilePath="" originalFileLastModifTimestamp="1440264808" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="11186" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\php\words.class.php" backupFilePath="" originalFileLastModifTimestamp="1440264821" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

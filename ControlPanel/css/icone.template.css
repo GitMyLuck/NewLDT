@@ -1,0 +1,62 @@
+﻿/*			DA  "LAYOUT_PANNELLO.CSS				*/
+
+.help		{
+		background-image: url('../images/icone/color/help-button.png');
+}
+
+.arrow_up {
+	background-image: url('../images/icone/color/arrow-up.png');
+}
+
+.arrow_down {
+	background-image: url('../images/icone/color/arrow-down.png');
+}
+
+.arrow_left {
+	background-image: url('../images/icone/color/arrow-left.png');
+}
+
+.arrow_right {
+	background-image: url('../images/icone/color/arrow-right.png');
+}
+
+.close {
+	background-image: url('../images/icone/color/close.png');
+}
+
+/*		DA   "ISTRUZIONI.CSS"		*/
+
+.help_funct {
+	background-image: url('../images/icone/color/help.png');
+}
+
+.help_funct:hover {
+	background-image: url('../images/icone/color/help-white.png');
+}
+
+/*		DA ALERT GENERATOR		*/
+.alert {
+			background: url('../images/icone/color/alert.png') no-repeat center center;
+	}
+	
+.close_alert {
+			background: url('../images/icone/color/delete.png') no-repeat center center;
+	}
+
+.info	{
+			background: url('../images/icone/color/info.png') no-repeat center center;
+	}
+	
+.error	{
+			background: url('../images/icone/color/error.png') no-repeat center center;
+	}
+
+.istr	{
+			background: url('../images/icone/color/help.png') no-repeat center center;
+	}
+
+.page	{
+			background: url('../images/icone/color/page.png') no-repeat center center;
+	}
+
+

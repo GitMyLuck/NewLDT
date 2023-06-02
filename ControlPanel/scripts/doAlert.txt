@@ -1,0 +1,34 @@
+﻿
+  C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\scripts\gestioni.js (11 hits)
+  
+
+	Line 349: 			doAlert('invio dati in corso...', 'salvataggio', 'alert', 5000);
+	Line 360: 								doAlert('dati inviati...','','',2000);
+	Line 371: 								doAlert('dati non inviati...<br /> Si e\' verificato un problema','','',2000);
+	Line 414: 		doAlert(message, '', 'alert', 3000);
+	Line 683: 		(fun == 'restore')?doDialog(fun + ' in corso...', '', 'alert', ''):doAlert(fun + ' in corso...', '', 'alert', 16000);
+	Line 695: 								doAlert(message, '', 'alert', 3000);
+	Line 705: 		doAlert('eliminazione back-up\nin corso...', '', 'alert', 16000);
+	Line 713: 							doAlert(message, '', 'alert', 5000);
+	
+  C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\scripts\gestioni.tags.js (5 hits)
+	Line 25: 							doAlert(message, 'GESTIONE TAGS', false, 1500000000, 300, 350, true);
+	Line 55: 						doAlert('<b>Tag : "' + tag + '"</b> <br />aggiunto con successo...', 'salvataggio', 'alert', 2000);
+	Line 62: 						doAlert('tag già esistente !', 'messaggio', 'alert', 2000);
+	Line 66: 						doAlert('numero max raggiunto !', 'messaggio', 'alert', 2000);
+	Line 88: 		doAlert('<b>Tag : "' + tag + '"</b> <br />eliminato con successo...', 'salvataggio', 'alert', 2000);
+	
+  C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\scripts\gestioni.user.js (6 hits)
+	Line 20: 								doAlert('ATTENZIONE ! <br />Campo obbligatorio', '', 'alert', 3000);
+	Line 28: 		doAlert('hai variato : <b> ' + attr +'</b><br />invio dati in corso...', 'salvataggio', 'alert', 3000);
+	Line 66: 							doAlert('Impossibile caricare Utente<br />Manca il nome...', 'errore', 'circle-close', 3000);
+	Line 78: 			doAlert('invio dati in corso...', 'salvataggio', 'alert', 5000);
+	Line 90: 								doAlert('dati inviati...','','',2000);
+	Line 98: 								doAlert('dati non inviati...<br /> Si e\' verificato un problema','','',2000);
+	
+  C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\scripts\new.gestioni.js (1 hit)
+	Line 68: function doAlert( testo, title, icon, time, al_width, al_height, close, fun )
+	
+  C:\Users\Administrator\Dropbox\AVALON-ARMAX\wvarazze\ControlPanel\scripts\settings.js (2 hits)
+	Line 60: 					doAlert('Invio dati in corso...', '', '', 2000);
+	Line 98: 					doAlert('Invio dati in corso...', '', '', 2000);

@@ -1,0 +1,62 @@
+﻿/*			DA  "LAYOUT_PANNELLO.CSS				*/
+
+.help		{
+		background-image: url('../images/icone/F9B234/help-button.png');
+}
+
+.arrow_up {
+	background-image: url('../images/icone/F9B234/arrow-up.png');
+}
+
+.arrow_down {
+	background-image: url('../images/icone/F9B234/arrow-down.png');
+}
+
+.arrow_left {
+	background-image: url('../images/icone/F9B234/arrow-left.png');
+}
+
+.arrow_right {
+	background-image: url('../images/icone/F9B234/arrow-right.png');
+}
+
+.close {
+	background-image: url('../images/icone/F9B234/close.png');
+}
+
+/*		DA   "ISTRUZIONI.CSS"		*/
+
+.help_funct {
+	background-image: url('../images/icone/F9B234/help.png');
+}
+
+.help_funct:hover {
+	background-image: url('../images/icone/F9B234/help-white.png');
+}
+
+/*		DA ALERT GENERATOR		*/
+.alert {
+			background: url('../images/icone/F9B234/alert.png') no-repeat center center;
+	}
+	
+.close_alert {
+			background: url('../images/icone/F9B234/delete.png') no-repeat center center;
+	}
+
+.info	{
+			background: url('../images/icone/F9B234/info.png') no-repeat center center;
+	}
+	
+.error	{
+			background: url('../images/icone/F9B234/error.png') no-repeat center center;
+	}
+	
+.istr	{
+			background: url('../images/icone/F9B234/help.png') no-repeat center center;
+	}
+
+.page	{
+			background: url('../images/icone/F9B234/page.png') no-repeat center center;
+	}
+
+

@@ -1,0 +1,157 @@
+
+
+.scheda-news {
+	text-align: left;
+	color: #ecf2f2;
+	margin-top: 12px;
+}
+
+
+.sx {
+	float: left;
+	margin: 0 15px 0 0;
+	width: 60%;
+}
+
+.dx {
+	float: left;
+	width: 35%;
+}
+
+.scheda_news_tipo {
+	font-weight: 300;
+	font-size: 16px;
+	color:#f0f0f0;
+	padding: 4px 0 0 10px;
+	background-color: #6b90bd;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 1px solid #a1bbe0;
+	height:22px;
+}
+		
+.scheda_news_titolo {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #f0be33;
+	font-weight: 300;
+	font-size: 34px;
+	color: #476f9e;
+	padding: 0 0 0 10px;
+	display: block;
+	height:auto;
+}
+		
+.scheda_news_foto {
+	max-height: 380px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border: 1px solid #a1bbe0;
+	border-bottom: 8px solid #a1bbe0;
+}
+
+.scheda_news_foto img {
+	width: 100%;
+}
+	
+.scheda-dati, .scheda-news-buttons		{
+		background-color: #6b90bd;
+		border-radius: 3px;
+		/*padding: 10px 0;*/
+		border: 1px solid #a1bbe0;
+		border-bottom: 8px solid #a1bbe0;
+	}
+	
+.scheda_news_indirizzo {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ecf2f2;
+	padding-left: 6px;
+	border-top: 1px solid #a1bbe0;
+}
+		
+.scheda_news_descrizione {
+	color: #ecf2f2;
+	margin-bottom: 15px;
+}
+
+.scheda-btn {
+	font-weight: 200;
+	display: block;
+	width: 100%;
+	height: 10px;
+	background-color: #B8B8B8;
+	background-color: #6b90bd;
+	border-top: 1px solid #a1bbe0;
+	color: #FFF;
+	padding: 0px 0px 50px 0px;
+	overflow: hidden;
+}
+
+
+	
+.hoverable		{
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	}
+	
+	
+.hoverable:hover {
+	background-color: #a1bbe0;
+	}
+
+.first		{
+		border: none;
+	}
+	
+.icona-btn		 {
+	float: left;
+	max-width: 32px;
+	min-width: 32px;
+	max-height: 32px;
+	min-height: 32px;
+	margin: 12px 10px;
+	}
+
+.data-btn	{
+		font-weight: bold;
+	}
+
+/* **************************** FINE schede **************************** */
+
+
+/* *********************** contenitori e vari  **************************** */
+.map-view		{
+	margin-top: 10px;
+	}
+	
+#exit-btn		{
+	float: right;
+	width: 18px;
+	height: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+	color: #ffa540;
+	}
+
+@media screen and (max-width:690px){
+	
+.sx {
+	float: none;
+	margin: 0 15px 0 0;
+	width: 100%;
+}
+
+.dx {
+	float: none;
+	width: 100%;
+}
+
+}
