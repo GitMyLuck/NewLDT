@@ -8,7 +8,7 @@
 
 <div class="banner">
 	<div class="main-banner">
-		<div class="logo-banner" >
+		<div class="logo-banner">
 			<a href="index.php"  ><img src="img/LogoLDT3.png" width="200" /></a>
 		</div>
 		<div class="titolo-banner">aeromodellisti</div>

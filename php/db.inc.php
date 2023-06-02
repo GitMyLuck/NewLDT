@@ -28,8 +28,8 @@ class CONNECT
 						$this->nomehost = $this->conn[3];
 						$this->nomeuser = $this->conn[4];
 						$this->password = $this->conn[5];
-						//$this->db_dec = 'THxQbWVwWTZXSFVY';
-						$this->db_dec = 'THxQbWVwWTZbNXtuZ0RAQA==';
+						$this->db_dec = 'THxQbWVwWTZXSFVY';
+						//$this->db_dec = 'THxQbWVwWTZbNXtuZ0RAQA==';
 						$this->connect();
 						$this->doDB();
 					}
@@ -84,6 +84,7 @@ class CONNECT
 	{
 	
 			echo 'connessione fallita.';
+			return false;
 
 	}
 	
