@@ -64,7 +64,7 @@ public $bind_control;			//  tipo di controllo da effettuare oltre a quello su
 				$this->boxes = $this->contaBox();
 				//conta le funzioni totali
 				$fun = $this->contaFunct();
-				//exit(var_dump($fun)); 
+				exit(var_dump($fun)); 
 				//se esistono box per questa pagina ...
 				if (isset ($this->boxes[$this->pagina]))
 					{

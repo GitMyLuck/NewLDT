@@ -4,10 +4,10 @@
 <tr><th align=\'left\' bgcolor=\'#f57900\' colspan="5"><span style=\'background-color: #cc0000; color: #fce94f; font-size: x-large;\'>( ! )</span> Notice: Undefined offset: 1 in C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code on line <i>71</i></th></tr>
 <tr><th align=\'left\' bgcolor=\'#e9b96e\' colspan=\'5\'>Call Stack</th></tr>
 <tr><th align=\'center\' bgcolor=\'#eeeeec\'>#</th><th align=\'left\' bgcolor=\'#eeeeec\'>Time</th><th align=\'left\' bgcolor=\'#eeeeec\'>Memory</th><th align=\'left\' bgcolor=\'#eeeeec\'>Function</th><th align=\'left\' bgcolor=\'#eeeeec\'>Location</th></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150848</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>288112</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>496160</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536792</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150048</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>287848</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>495896</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536520</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
 		@session_start();
 		$data = unserialize( $_SESSION[\'data\'] );
 		$chunk = $_SESSION[\'chunk\'];
@@ -106,7 +106,7 @@
 				}
 ?>
 \'</font> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>122</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>5</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0170</td><td bgcolor=\'#eeeeec\' align=\'right\'>589672</td><td bgcolor=\'#eeeeec\'>transData( <span>$data_evento = </span><span>&#39;&#39;</span> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code\' bgcolor=\'#eeeeec\'>..\\cache.class.php(122) : eval()\'d code<b>:</b>42</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>5</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0190</td><td bgcolor=\'#eeeeec\' align=\'right\'>589392</td><td bgcolor=\'#eeeeec\'>transData( <span>$data_evento = </span><span>&#39;&#39;</span> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code\' bgcolor=\'#eeeeec\'>..\\cache.class.php(122) : eval()\'d code<b>:</b>42</td></tr>
 <tr><th colspan=\'5\' align=\'left\' bgcolor=\'#e9b96e\'>Dump <i>$_SERVER</i></th></tr>
 <tr><td colspan=\'2\' align=\'right\' bgcolor=\'#eeeeec\' valign=\'top\'><pre>$_SERVER[\'REMOTE_ADDR\']&nbsp;=</pre></td><td colspan=\'3\' bgcolor=\'#eeeeec\'><pre class=\'xdebug-var-dump\' dir=\'ltr\'><small>string</small> <font color=\'#cc0000\'>\'127.0.0.1\'</font> <i>(length=9)</i>
 </pre></td></tr>
@@ -143,10 +143,10 @@
 <tr><th align=\'left\' bgcolor=\'#f57900\' colspan="5"><span style=\'background-color: #cc0000; color: #fce94f; font-size: x-large;\'>( ! )</span> Notice: Undefined offset: 2 in C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code on line <i>43</i></th></tr>
 <tr><th align=\'left\' bgcolor=\'#e9b96e\' colspan=\'5\'>Call Stack</th></tr>
 <tr><th align=\'center\' bgcolor=\'#eeeeec\'>#</th><th align=\'left\' bgcolor=\'#eeeeec\'>Time</th><th align=\'left\' bgcolor=\'#eeeeec\'>Memory</th><th align=\'left\' bgcolor=\'#eeeeec\'>Function</th><th align=\'left\' bgcolor=\'#eeeeec\'>Location</th></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150848</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>288112</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>496160</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536792</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150048</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>287848</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>495896</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536520</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
 		@session_start();
 		$data = unserialize( $_SESSION[\'data\'] );
 		$chunk = $_SESSION[\'chunk\'];
@@ -838,10 +838,10 @@
 <tr><th align=\'left\' bgcolor=\'#f57900\' colspan="5"><span style=\'background-color: #cc0000; color: #fce94f; font-size: x-large;\'>( ! )</span> Notice: Undefined offset: 1 in C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code on line <i>71</i></th></tr>
 <tr><th align=\'left\' bgcolor=\'#e9b96e\' colspan=\'5\'>Call Stack</th></tr>
 <tr><th align=\'center\' bgcolor=\'#eeeeec\'>#</th><th align=\'left\' bgcolor=\'#eeeeec\'>Time</th><th align=\'left\' bgcolor=\'#eeeeec\'>Memory</th><th align=\'left\' bgcolor=\'#eeeeec\'>Function</th><th align=\'left\' bgcolor=\'#eeeeec\'>Location</th></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150848</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>288112</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>496160</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536792</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150048</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>287848</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>495896</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536520</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
 		@session_start();
 		$data = unserialize( $_SESSION[\'data\'] );
 		$chunk = $_SESSION[\'chunk\'];
@@ -940,7 +940,7 @@
 				}
 ?>
 \'</font> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>122</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>5</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0320</td><td bgcolor=\'#eeeeec\' align=\'right\'>672544</td><td bgcolor=\'#eeeeec\'>transData( <span>$data_evento = </span><span>&#39;&#39;</span> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code\' bgcolor=\'#eeeeec\'>..\\cache.class.php(122) : eval()\'d code<b>:</b>42</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>5</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0360</td><td bgcolor=\'#eeeeec\' align=\'right\'>672264</td><td bgcolor=\'#eeeeec\'>transData( <span>$data_evento = </span><span>&#39;&#39;</span> )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code\' bgcolor=\'#eeeeec\'>..\\cache.class.php(122) : eval()\'d code<b>:</b>42</td></tr>
 <tr><th align=\'left\' colspan=\'5\' bgcolor=\'#e9b96e\'>Variables in local scope (#5)</th></tr>
 <tr><td colspan=\'2\' align=\'right\' bgcolor=\'#eeeeec\' valign=\'top\'><pre>$array_data&nbsp;=</pre></td><td colspan=\'3\' bgcolor=\'#eeeeec\'><pre class=\'xdebug-var-dump\' dir=\'ltr\'>
 <b>array</b> <i>(size=1)</i>
@@ -970,10 +970,10 @@
 <tr><th align=\'left\' bgcolor=\'#f57900\' colspan="5"><span style=\'background-color: #cc0000; color: #fce94f; font-size: x-large;\'>( ! )</span> Notice: Undefined offset: 2 in C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php(122) : eval()\'d code on line <i>43</i></th></tr>
 <tr><th align=\'left\' bgcolor=\'#e9b96e\' colspan=\'5\'>Call Stack</th></tr>
 <tr><th align=\'center\' bgcolor=\'#eeeeec\'>#</th><th align=\'left\' bgcolor=\'#eeeeec\'>Time</th><th align=\'left\' bgcolor=\'#eeeeec\'>Memory</th><th align=\'left\' bgcolor=\'#eeeeec\'>Function</th><th align=\'left\' bgcolor=\'#eeeeec\'>Location</th></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150848</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>288112</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>496160</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
-<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536792</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>1</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0010</td><td bgcolor=\'#eeeeec\' align=\'right\'>150048</td><td bgcolor=\'#eeeeec\'>{main}(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>0</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>2</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0100</td><td bgcolor=\'#eeeeec\' align=\'right\'>287848</td><td bgcolor=\'#eeeeec\'>CACHE->getCache(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\elabora.news.php\' bgcolor=\'#eeeeec\'>..\\elabora.news.php<b>:</b>92</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>3</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>495896</td><td bgcolor=\'#eeeeec\'>CACHE->creaPagina(  )</td><td title=\'C:\\Users\\Giovanni\\Desktop\\NewLDT\\php\\classes\\cache.class.php\' bgcolor=\'#eeeeec\'>..\\cache.class.php<b>:</b>55</td></tr>
+<tr><td bgcolor=\'#eeeeec\' align=\'center\'>4</td><td bgcolor=\'#eeeeec\' align=\'center\'>0.0120</td><td bgcolor=\'#eeeeec\' align=\'right\'>536520</td><td bgcolor=\'#eeeeec\'>eval( <font color=\'#00bb00\'>\'?><?php 
 		@session_start();
 		$data = unserialize( $_SESSION[\'data\'] );
 		$chunk = $_SESSION[\'chunk\'];
@@ -1908,5 +1908,5 @@
 </div>
 <div class="fine-news 13"></div> 
 <!--	fine notizia	--> <div class=\'void\'>...</div><div id=\'max\'>13</div>";',
-  'l' => 1685690796,
+  'l' => 1685740285,
 );

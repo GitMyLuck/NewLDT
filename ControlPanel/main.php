@@ -100,18 +100,16 @@ if ($admin < 3)			// SOLO PER super-user e sub-administrator
 <form id="modulo_completo_main" name="modulo_completo_main">
 <!--	INCLUDI LA PAGINA SALVATA IN CACHE   -->
 <?php 
+
 include $dir_cache . 'cache/page'. $user . $sheet . '.php';
 ?>
 </form>
-<center>
 
-</center> 
 </div>				<!-- FINE MAIN CONTENT -->
 
-<center>
+
 <div class="footer_closer"  style="color: #AAA;">.</div>
-<div id="menu" class="content_menu"></div>
-</center> 
+<div id="menu" class="content_menu"></div> 
 </div> <!-- end wrap -->
 <div id="service"></div>
 </body>

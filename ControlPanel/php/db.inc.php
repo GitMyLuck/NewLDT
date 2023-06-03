@@ -27,7 +27,8 @@ class CONNECT
 						$this->nomehost = $this->conn[3];
 						$this->nomeuser = $this->conn[4];
 						$this->password = $this->conn[5];
-						$this->db_dec = 'THxQbWVwWTZXSFVY';
+						//$this->db_dec = 'THxQbWVwWTZXSFVY';	//"###newLDT"
+						$this->db_dec = 'THxQbWVwWTZbNXtuZ0RAQA==';	//"###new_ldt"
 						$this->connect();
 						$this->doDB();
 					}

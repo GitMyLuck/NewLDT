@@ -6,10 +6,8 @@ echo '<div id="content_tastiera"><center>
 
 // TASTO APRI BOX
 echo '<div class="tastiera">
-	<input class="maximize" name="expand" type="button" value="" onclick="apriBox();" title="espandi"><br>&nbsp;</div>';	
-	
-echo '	</center>
-	</div>';
-	// ultimo div chiude il content tastiera
+	<input class="maximize" name="expand" type="button" value="" onclick="apriBox();" title="espandi"><br>&nbsp;</div>
+	</center>
+	</div>';	
 	
 ?>
