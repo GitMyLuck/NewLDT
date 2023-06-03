@@ -25,7 +25,7 @@ $admin = $_SESSION['admin'];
 				$temp = '<div class="tasto_pagina" id="inattivo">statistiche</div>';
 			}
 	echo $temp;
-		}*/
-}
+		}
+
 
 ?>
