@@ -130,7 +130,7 @@ class NEWS extends FUNCT
 			$stringa .= '.' . idate('Y', $time);
 			//$stringa .= '<br>&nbsp; &nbsp;  ' . $hour . ' : ';
 			//$stringa .= $min . ' : ' . $sec;
-			$this->data = $stringa;
+			//$this->data = $stringa;
 			return $stringa;
 			}
 			
@@ -157,7 +157,7 @@ public function doTimeBrev($time)				//OK FOR
 			$stringa .= '.' . idate('y', $time);
 			$stringa .= '<br>' . $hour . ' : ';
 			$stringa .= $min . ' : ' . $sec;
-			$this->data = $stringa;
+			//$this->data = $stringa;
 			return $stringa;
 			}
 			

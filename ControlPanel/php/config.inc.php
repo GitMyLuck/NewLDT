@@ -1,7 +1,7 @@
 ﻿<?php
 //header('Content-type: text/html;charset=utf-8');
 // numero del pversionamento del ControlPanel al 04/06/2023
-$copy = "2.8.5.1";
+$copy = "2.8.5.2";
 
 //$users = array("", "_adm_", "_sub_", "_prem_", "_gold_", "_silv_", "_base_");
 $users = array("", "_adm_", "_sub_");

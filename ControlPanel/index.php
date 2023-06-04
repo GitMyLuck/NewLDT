@@ -188,7 +188,7 @@ if ($conn->login == 1)
 				{
 			$campi_nuovi = $campi->prelevaCampi();
 			//array_shift($campi_nuovi); //elimina primo valore null
-			$nuovi_campi = $tabelle->creaTabella($pagine[$i], $campi_nuovi);
+			$tabelle->creaTabella($pagine[$i], $campi_nuovi);
 				}
 			else if ($results && $control)
 				{
@@ -271,7 +271,8 @@ function buildPages($dir, $pag, $news, $utenti, $control)
 			$page_costr = new NEWPAGE($pag);
 			// COSTRUZIONE PAGINE PRINCIPALI
 			$type_pagina = array("", "", "varia_", "nuovo_");
-			for ($u = 1; $u <= 6; $u++)
+			// il ciclo viene basato sulla lunghezza dell'array globale $utenti
+			for ($u = 1; $u <= (count($utenti) - 1); $u++)
 				{
 					// CICLO PAGINE PRINCIPALI
 					for ($i = 1; $i <= 3; $i++)
@@ -280,7 +281,7 @@ function buildPages($dir, $pag, $news, $utenti, $control)
 							$file_root = $dir . 'cache/page'. $utenti[$u] . $type_pagina[$i] . $pag . '.php';
 							//exit(var_dump($file_root)); 
 							
-							if ($control)
+							if ($control || !is_file($dir . 'cache/page'. $utenti[$u] . $type_pagina[$i] . $pag . '.php'))
 							//if(1==1)
 								{ 
 									
