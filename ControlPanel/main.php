@@ -101,7 +101,7 @@ if ($admin < 3)			// SOLO PER super-user e sub-administrator
 <!--	INCLUDI LA PAGINA SALVATA IN CACHE   -->
 <?php 
 
-include $dir_cache . 'cache/page'. $user . $sheet . '.php';
+include $dir_cache . 'cache/page'. $user . $sheet . '.php'; 
 ?>
 </form>
 

@@ -34,14 +34,14 @@ var $functions = array();
 								$this->box[$this->pagina][$counter] = array ( 	
 								
 'id_box' => $this->row['id_box'],
-																										'title_box' => $this->row['title_box'],
-																										'num_box' => $this->row['num_box'],
-																										'width_box' => $this->row['width_box'],
-																										'height_box' => $this->row['height_box'],
-																										'type_box' => $this->row['type_box'],
-																										'inflate_box' => $this->row['inflate_box'],
-																										'display_box' => $this->row['display_box'],
-																										'help_box' => $this->row['help_box']);
+'title_box' => $this->row['title_box'],
+'num_box' => $this->row['num_box'],
+'width_box' => $this->row['width_box'],
+'height_box' => $this->row['height_box'],
+'type_box' => $this->row['type_box'],
+'inflate_box' => $this->row['inflate_box'],
+'display_box' => $this->row['display_box'],
+'help_box' => $this->row['help_box']);
 								$counter++;
 							}
 					return $this->box;

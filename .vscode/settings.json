@@ -1,6 +1,7 @@
 {
-    "php.suggest.basic": false,
-    "php.validate.executablePath": ""
+    "php.suggest.basic": true,
+    "php.validate.executablePath": "C:\\Users\\Giovanni\\Desktop\\EasyPHP\\binaries\\php\\php_runningversion\\php.exe",
+    "php.validate.enable": true
     
 
 }

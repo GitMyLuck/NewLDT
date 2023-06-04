@@ -180,6 +180,7 @@ if ($conn->login == 1)
 				{
 					$control = true;
 				}
+			//exit(var_dump($control)); 
 			// CONTROLLA SE ESISTONO TABELLE PER QUESTA PAGINA
 			$results = $conn->isTabella($pagine[$i]);
 			if (!$results) //se non esiste tabella creala
@@ -276,7 +277,10 @@ function buildPages($dir, $pag, $news, $utenti, $control)
 						{
 							// controlla esistenza pagina solo MODE::'normal'
 							$file_root = $dir . 'cache/page'. $utenti[$u] . $type_pagina[$i] . $pag . '.php';
+							//exit(var_dump($file_root)); 
+							
 							if ($control)
+							//if(1==1)
 								{ 
 									
 									// CREA PAGINA
