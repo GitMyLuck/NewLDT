@@ -124,6 +124,7 @@ if ($conn->login == 1)
 				}
 	// salva nella cache file con impostazioni colori
 	$style = $news->doCacheStyle(); 
+	
 	// controlla se ci sono le tabelle_base
 	$results = $conn->isTabelleBase();
 	// se non esitono , allora creale

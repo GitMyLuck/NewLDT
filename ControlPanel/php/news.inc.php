@@ -9,14 +9,25 @@ class NEWS extends FUNCT
 	public function doCacheStyle()
 	{
 		global $dir_cache;
+		$nameFile = $dir_cache . 'cache/layout.settings.php';
 		ob_start();
 		include "color_settings/style.variabile.php";
 		// Scriviamo il contenuto del buffer nel file di cache
-		$file = fopen($dir_cache . 'cache/layout.settings.php', 'w');
+		$file = fopen($nameFile, 'w');
 		fwrite($file, ob_get_contents());
 		fclose($file);
 		// Chiudiamo il buffer
-		//ob_end_flush();
+		ob_end_flush();
+		// Controlla se il file è stato creato correttamente
+		if (is_file($nameFile))
+			{	
+				return true;
+			}
+		else
+			{
+				return false;
+			}
+		
 	}
 	
 // Funzione di caricamento nella cache del file che contiene i colori per il pannello
@@ -83,9 +94,10 @@ class NEWS extends FUNCT
 /*			***** CARICA LOGO NELLE PAGINE *****				*/
 		public function getLogo()								//OK FOR
 		{
+			global $copy;
 			$title = strtoupper ('CONTROL  PANEL');
-			$copy = '2.8.5.1';
-			echo '<div id="logo"><img src="./images/logo.png" title="logo" ></div><div id="programma"  style="position:relative;top:-26px;">'.$title. '  (Ver. ' . $copy . ') </div>';
+			echo '<div id="logo"><img src="./images/logo.png" title="logo" ></div>' . PHP_EOL;
+			echo '<div id="programma"  style="position:relative;top:-26px;">'.$title. '  (Ver. ' . $copy . ') </div>' . PHP_EOL;
 
 		}
 		
