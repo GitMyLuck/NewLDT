@@ -62,8 +62,9 @@
 				$page_content .= "<div class='void'>...</div>";
 				$page_content .= "<div id='max'>" . $index . "</div>";
 				echo $page_content;
+				exit;
 				
-				
+			
 				function transData($data_evento)
 				{
 					$mese = array('ll', 'GEN', 'FEBB', 'MAR', 'APR', 'MAG', 'GIU', 'LUG', 'AGO', 'SET', 'OTT', 'NOV', 'DIC');

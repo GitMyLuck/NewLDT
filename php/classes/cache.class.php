@@ -41,9 +41,10 @@ protected $pagina;				// nome della pagina di news da caricare
 			//  esegui controllo su [refresh-flag] nel db ( 0 devi fare refresh   1 refresh alla scadenza )
 			$res = $res && $this->refreshCache();
 			// esegui il controllo sull'esistenza del file in cache
-			$res = $res && $this->contrCache($this->search);
+			$res = $res && $this->contrCache();
 			// esegui il controllo sulla validita della cache (deve essere di oggi)
 			$res = $res && $this->contrData();
+			//exit(var_dump($res));
 			if ( $res )	
 				{
 					//  mostra output
