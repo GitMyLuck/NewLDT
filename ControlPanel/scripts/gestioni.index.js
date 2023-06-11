@@ -31,6 +31,8 @@ function prepareSpin(divName)
      {
 		var box_array = new Array (0,0,0,0,0,0,0,0,0,0,0);
 		$.cookie('box_eventi', JSON.stringify(box_array));
+
+		$.cookie('box_news', JSON.stringify(box_array));
 		
 		$.cookie('box_archivio', JSON.stringify(box_array));
 		

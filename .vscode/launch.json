@@ -4,6 +4,7 @@
     // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         
         {
             "name": "Launch built-in server and debug",
@@ -11,11 +12,11 @@
             "request": "launch",
             "runtimeArgs": [
                 "-S",
-                "localhost:8000",
+                "127.0.0.1:98",
                 "-t",
                 "."
             ],
-            "port": 9003,
+            "port": 5243,
             "serverReadyAction": {
                 "action": "openExternally"
             }
@@ -27,13 +28,13 @@
             "program": "${file}",
             "cwd": "${fileDirname}",
             "externalConsole": false,
-            "port": 9003
+            "port": 5243
         },
         {
             "name": "Listen for Xdebug",
             "type": "php",
             "request": "launch",
-            "port": 9003
+            "port": 5243
         }
     ]
 }

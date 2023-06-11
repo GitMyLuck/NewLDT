@@ -34,7 +34,7 @@ $nomePagina = substr($uri, $pos);
 $pos = (strrpos($nomePagina, "."));
 $nomePagina = substr($nomePagina, 0, $pos);
 //se la pagina si chiama index, allora cambia in 'home_page'
-if ($nomePagina == 'index')
+if ($nomePagina == 'index' || $nomePagina == false)
  {
   $nomePagina = 'home';
  }
