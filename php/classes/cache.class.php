@@ -45,7 +45,7 @@ protected $pagina;				// nome della pagina di news da caricare
 			// esegui il controllo sulla validita della cache (deve essere di oggi)
 			$res = $res && $this->contrData();
 			//exit(var_dump($res));
-			if ( $res )	
+			if ( $res == true )	
 				{
 					//  mostra output
 					$this->mostraCache($this->search);
